@@ -5,8 +5,10 @@ using System.Text;
 
 namespace Business.Abstract
 {
-    interface ICarService
+    public interface ICarService
     {
         List<Car> GetAll();
+        List<Car> GetCarsByBrandId(int brandId);
+        List<Car> GetCarsByColorId(int colorId);
     }
 }

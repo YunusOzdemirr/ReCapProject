@@ -186,11 +186,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Ares\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\source\\repos\\ReCapProject\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -241,7 +241,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

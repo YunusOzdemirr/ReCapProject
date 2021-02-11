@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using System;
@@ -9,7 +10,7 @@ namespace ReCapProject
     {
         static void Main(string[] args)
         {
-            CarManager car = new CarManager(new InMemoryCarDal());
+            CarManager car = new CarManager(new EfCarDal());
             foreach (var item in car.GetAll())
             {
                 Console.WriteLine(item.Description);

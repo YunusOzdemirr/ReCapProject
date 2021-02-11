@@ -12,3 +12,17 @@ C:\Users\Ares\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Busine
 C:\Users\Ares\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Ares\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Ares\source\repos\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Business.deps.json
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Business.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Business.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csprojAssemblyReference.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfoInputs.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.AssemblyInfo.cs
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
