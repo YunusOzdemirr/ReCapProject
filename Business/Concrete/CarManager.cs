@@ -17,6 +17,17 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+        public void Add(Car car)
+        {
+            if (car.Description.Length > 2 && car.DailyPrice > 0)
+            {
+                _carDal.Add(car);
+            }
+            else
+            {
+            }
+        }
+
         public List<Car> GetAll()
         {
             return _carDal.GetAll();
@@ -26,7 +37,7 @@ namespace Business.Concrete
         {
             var GetCarId = _carDal.GetAll(p => p.BrandId == brandId).ToList();
             return GetCarId;
-            
+
         }
 
         public List<Car> GetCarsByColorId(int colorId)
