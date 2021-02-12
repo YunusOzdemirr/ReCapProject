@@ -9,5 +9,6 @@ namespace Business.Abstract
     {
         List<Color> GetAllColors();
         Color GetColorById(int id);
+        void Add(Color color);
     }
 }
