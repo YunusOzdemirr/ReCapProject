@@ -27,5 +27,10 @@ namespace Business.Concrete
             var result = _brandDal.GetAll();
             return result;
         }
+
+        public void Add(Brand brand)
+        {
+            _brandDal.Add(brand);
+        }
     }
 }
