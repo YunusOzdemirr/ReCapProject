@@ -27,9 +27,8 @@ namespace Business.Concrete
 
         public List<Car> GetCarsByBrandId(int brandId)
         {
-            var GetCarId = _carDal.GetAll(p => p.BrandId == brandId).ToList();
+            var GetCarId = _carDal.GetAll(p => p.CarId == brandId).ToList();
             return GetCarId;
-
         }
         public List<Car> GetCarsByColorId(int colorId)
         {

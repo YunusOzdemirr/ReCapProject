@@ -36,8 +36,18 @@ namespace ReCapProject
                     Console.WriteLine("Bir Araba ekleyeceksiniz devam etmek için enter tuşuna basın");
                     Car car1 = new Car();
                     Console.WriteLine("Marka Id ekleyiniz olmayan bir marka eklemeye çalışmayın");
+                    foreach (var item in brand.GetAllBrands())
+                    {
+                        Console.Write(item.BrandId + " ");
+                        Console.Write(item.Name+" ");
+                    }
                     car1.BrandId = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Renk Id ekleyiniz olmayan bir renk eklemeye çalışmayın");
+                    foreach (var item in color.GetAllColors())
+                    {
+                        Console.Write(item.ColorId + " ");
+                        Console.Write(item.Name + " ");
+                    }
                     car1.ColorId = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Günlük kiralama ücretini ekleyiniz");
                     car1.DailyPrice = Convert.ToDecimal(Console.ReadLine());
