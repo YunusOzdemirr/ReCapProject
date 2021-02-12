@@ -10,17 +10,22 @@ namespace Business.Concrete
 {
     public class ColorManager:IColorService
     {
-        ICarDal _carDal;
+        IColorDal _colorDal;
 
-        public ColorManager(ICarDal carDal)
+        public ColorManager(IColorDal colorDal)
         {
-            _carDal = carDal;
+            _colorDal = colorDal;
         }
-
-        public List<Car> GetCarsByColorId(int colorId)
+      
+        public List<Color> GetAllColors()
         {
-            var GetCar = _carDal.GetAll(c => c.ColorId == colorId).ToList();
-            return GetCar;
+            var result = _colorDal.GetAll();
+            return result;
+        }
+        public Color GetColorById(int id)
+        {
+            var result = _colorDal.Get(p => p.ColorId == id);
+            return result;
         }
     }
 }

@@ -10,17 +10,22 @@ namespace Business.Concrete
 {
     public class BrandManager : IBrandService
     {
-        ICarDal _carDal;
+        IBrandDal _brandDal;
 
-        public BrandManager(ICarDal carDal)
+        public BrandManager(IBrandDal brandDal)
         {
-            _carDal = carDal;
+            _brandDal = brandDal;
         }
 
-        public List<Car> GetCarsByBrandId(int brandId)
+        public Brand GetBrandById(int id)
         {
-            var GetCarId = _carDal.GetAll(p => p.BrandId == brandId).ToList();
-            return GetCarId;
+            var result = _brandDal.Get(p => p.BrandId == id);
+            return result;
+        }
+        public List<Brand> GetAllBrands()
+        {
+            var result = _brandDal.GetAll();
+            return result;
         }
     }
 }

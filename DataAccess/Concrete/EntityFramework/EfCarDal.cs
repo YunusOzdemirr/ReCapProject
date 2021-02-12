@@ -15,7 +15,6 @@ namespace DataAccess.Concrete.EntityFramework
         {
             using (ReCarProjectContext context = new ReCarProjectContext())
             {
-
                 var addedEntity = context.Entry(entity);
                 addedEntity.State = EntityState.Added;
                 context.SaveChanges();
