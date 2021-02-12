@@ -1,1 +1,1 @@
-# ReCapProject
+# Course Project
