@@ -7,3 +7,15 @@ C:\Users\Ares\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entiti
 C:\Users\Ares\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Ares\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\Ares\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb

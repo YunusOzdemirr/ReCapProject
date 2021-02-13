@@ -10,23 +10,24 @@ namespace ReCapProject
     {
         static void Main(string[] args)
         {
+            //CarManager car;
+            //ColorManager color;
+            //BrandManager brand;
+            //BasicMethod(out car, out color, out brand);
+            //CarBrandColorAddMethod(car, color, brand);
+            CarDetailDto();
+        }
+        private static void CarDetailDto() 
+        {
             CarManager car = new CarManager(new EfCarDal());
-            foreach (var item in car.GetAll())
+            foreach (var item in car.GetCarDetails())
             {
-                Console.WriteLine(item.Description + " " + item.DailyPrice);
+                Console.WriteLine(item.Description + " " + item.ColorName + " " + item.BrandName);
             }
-            ColorManager color = new ColorManager(new EfColorDal());
-            foreach (var item in color.GetAllColors())
-            {
-                Console.WriteLine(item.ColorId + " " + item.Name);
-            }
-            BrandManager brand = new BrandManager(new EfBrandDal());
-            foreach (var item in brand.GetAllBrands())
-            {
-                Console.WriteLine(item.BrandId + " " + item.Name);
-            }
-            Console.WriteLine(brand.GetBrandById(1).Name);
-            Console.WriteLine(brand.GetBrandById(2).Name);
+        }
+
+        private static void CarBrandColorAddMethod(CarManager car, ColorManager color, BrandManager brand)
+        {
             Console.WriteLine("Bir Araba eklemek için 1");
             Console.WriteLine("Bir Marka eklemek için 2");
             Console.WriteLine("Bir Color eklemek için 3");
@@ -39,7 +40,7 @@ namespace ReCapProject
                     foreach (var item in brand.GetAllBrands())
                     {
                         Console.Write(item.BrandId + " ");
-                        Console.Write(item.Name+" ");
+                        Console.Write(item.Name + " ");
                     }
                     car1.BrandId = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Renk Id ekleyiniz olmayan bir renk eklemeye çalışmayın");
@@ -59,20 +60,41 @@ namespace ReCapProject
                     Console.WriteLine($"{car1.CarId} Id'sine sahip araba eklenmiştir");
                     break;
                 case "2":
-                    Console.WriteLine("Bir Marka ekleyiniz");
+                    Console.WriteLine("Bir Marka adı ekleyiniz");
                     Brand brand1 = new Brand();
                     brand1.Name = Console.ReadLine();
                     brand.Add(brand1);
                     Console.WriteLine($"{brand1.Name} başarıyla eklenmiştir");
                     break;
                 case "3":
-                    Console.WriteLine("Bir Renk ekleyiniz");
-                    Color color1= new Color();
+                    Console.WriteLine("Bir Renk adı ekleyiniz");
+                    Color color1 = new Color();
                     color1.Name = Console.ReadLine();
                     color.Add(color1);
                     Console.WriteLine($"{color1.Name} başarıyla eklenmiştir");
                     break;
             }
+        }
+
+        private static void BasicMethod(out CarManager car, out ColorManager color, out BrandManager brand)
+        {
+            car = new CarManager(new EfCarDal());
+            foreach (var item in car.GetAll())
+            {
+                Console.WriteLine(item.Description + " " + item.DailyPrice);
+            }
+            color = new ColorManager(new EfColorDal());
+            foreach (var item in color.GetAllColors())
+            {
+                Console.WriteLine(item.ColorId + " " + item.Name);
+            }
+            brand = new BrandManager(new EfBrandDal());
+            foreach (var item in brand.GetAllBrands())
+            {
+                Console.WriteLine(item.BrandId + " " + item.Name);
+            }
+            Console.WriteLine(brand.GetBrandById(1).Name);
+            Console.WriteLine(brand.GetBrandById(2).Name);
         }
     }
 }

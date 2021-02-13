@@ -118,3 +118,5 @@ C:\Users\Ares\Desktop\AllProjects\ReCapProject\ReCapProject\obj\Debug\netcoreapp
 C:\Users\Ares\Desktop\AllProjects\ReCapProject\ReCapProject\obj\Debug\netcoreapp3.1\ReCapProject.dll
 C:\Users\Ares\Desktop\AllProjects\ReCapProject\ReCapProject\obj\Debug\netcoreapp3.1\ReCapProject.pdb
 C:\Users\Ares\Desktop\AllProjects\ReCapProject\ReCapProject\obj\Debug\netcoreapp3.1\ReCapProject.genruntimeconfig.cache
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\ReCapProject\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\ReCapProject\bin\Debug\netcoreapp3.1\Core.pdb

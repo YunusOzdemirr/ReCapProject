@@ -1,6 +1,7 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,9 +48,15 @@ namespace Business.Concrete
                 Console.WriteLine("hata");
             }
         }
+
+        public List<CarDetailDto> GetCarDetails()
+        {
+            var result = _carDal.GetCarDetails();
+            return result;
+        }
         #endregion
 
-      
+
 
 
 

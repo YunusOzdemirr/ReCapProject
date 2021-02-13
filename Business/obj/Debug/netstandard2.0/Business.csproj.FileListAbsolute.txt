@@ -26,3 +26,5 @@ C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0
 C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.csproj.CopyComplete
 C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.dll
 C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\obj\Debug\netstandard2.0\Business.pdb
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Ares\Desktop\AllProjects\ReCapProject\Business\bin\Debug\netstandard2.0\Core.pdb
