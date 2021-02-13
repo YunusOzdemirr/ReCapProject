@@ -20,10 +20,20 @@ namespace ReCapProject
         private static void CarDetailDto() 
         {
             CarManager car = new CarManager(new EfCarDal());
-            foreach (var item in car.GetCarDetails())
+            var result = car.GetCarDetails();
+            if (result.Success)
             {
-                Console.WriteLine(item.Description + " " + item.ColorName + " " + item.BrandName);
+                foreach (var item in result.Data)
+                {
+                    Console.WriteLine(item.Description + " " + item.ColorName + " " + item.BrandName);
+                }
             }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+            Console.Read();
+
         }
 
         private static void CarBrandColorAddMethod(CarManager car, ColorManager color, BrandManager brand)
@@ -37,14 +47,14 @@ namespace ReCapProject
                     Console.WriteLine("Bir Araba ekleyeceksiniz devam etmek için enter tuşuna basın");
                     Car car1 = new Car();
                     Console.WriteLine("Marka Id ekleyiniz olmayan bir marka eklemeye çalışmayın");
-                    foreach (var item in brand.GetAllBrands())
+                    foreach (var item in brand.GetAllBrands().Data)
                     {
                         Console.Write(item.BrandId + " ");
                         Console.Write(item.Name + " ");
                     }
                     car1.BrandId = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Renk Id ekleyiniz olmayan bir renk eklemeye çalışmayın");
-                    foreach (var item in color.GetAllColors())
+                    foreach (var item in color.GetAllColors().Data)
                     {
                         Console.Write(item.ColorId + " ");
                         Console.Write(item.Name + " ");
@@ -79,22 +89,27 @@ namespace ReCapProject
         private static void BasicMethod(out CarManager car, out ColorManager color, out BrandManager brand)
         {
             car = new CarManager(new EfCarDal());
-            foreach (var item in car.GetAll())
+            var result = car.GetAll();
+            if (result.Success)
+            {
+
+            }
+            foreach (var item in result.Data)
             {
                 Console.WriteLine(item.Description + " " + item.DailyPrice);
             }
             color = new ColorManager(new EfColorDal());
-            foreach (var item in color.GetAllColors())
+            foreach (var item in color.GetAllColors().Data)
             {
                 Console.WriteLine(item.ColorId + " " + item.Name);
             }
             brand = new BrandManager(new EfBrandDal());
-            foreach (var item in brand.GetAllBrands())
+            foreach (var item in brand.GetAllBrands().Data)
             {
                 Console.WriteLine(item.BrandId + " " + item.Name);
             }
-            Console.WriteLine(brand.GetBrandById(1).Name);
-            Console.WriteLine(brand.GetBrandById(2).Name);
+            Console.WriteLine(brand.GetBrandById(1).Data.Name);
+            Console.WriteLine(brand.GetBrandById(2).Data.Name);
         }
     }
 }

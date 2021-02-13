@@ -1,4 +1,9 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilites.DataResults;
+using Core.Utilites.DataResults.MethodDataResult;
+using Core.Utilites.Results;
+using Core.Utilites.Results.MethodResult;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.Dtos;
@@ -13,54 +18,42 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         ICarDal _carDal;
-        
+
 
         public CarManager(ICarDal carDal)
         {
             _carDal = carDal;
         }
-     
-        #region Car
-        public List<Car> GetAll()
+
+        public IDataResult<List<Car>> GetAll()
         {
-            return _carDal.GetAll();
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.ObjectList);
         }
 
-        public List<Car> GetCarsByBrandId(int brandId)
+        public IDataResult<List<Car>> GetCarsByBrandId(int brandId)
         {
             var GetCarId = _carDal.GetAll(p => p.CarId == brandId).ToList();
-            return GetCarId;
+            return new SuccessDataResult<List<Car>>(GetCarId, Messages.ObjectList);
+
         }
-        public List<Car> GetCarsByColorId(int colorId)
+        public IDataResult<List<Car>> GetCarsByColorId(int colorId)
         {
             var GetCar = _carDal.GetAll(c => c.ColorId == colorId).ToList();
-            return GetCar;
+            return new SuccessDataResult<List<Car>>(GetCar, Messages.ObjectList);
         }
-        public void Add(Car car)
+        public IResult Add(Car car)
         {
-           // car.Description.Length > 2 && car.DailyPrice > 0 ? _carDal.Add(car) : Console.WriteLine("Hata");
-            if (car.Description.Length > 2 && car.DailyPrice > 0)
-            {
-                _carDal.Add(car);
-            }
-            else
-            {
-                Console.WriteLine("hata");
-            }
+            // car.Description.Length > 2 && car.DailyPrice > 0 ? _carDal.Add(car) : Console.WriteLine("Hata");
+
+             _carDal.Add(car);
+            return new SuccessResult(Messages.ObjectAdded);
+
         }
 
-        public List<CarDetailDto> GetCarDetails()
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
             var result = _carDal.GetCarDetails();
-            return result;
+            return new SuccessDataResult<List<CarDetailDto>>(result, Messages.ObjectList);
         }
-        #endregion
-
-
-
-
-
-
-
     }
 }

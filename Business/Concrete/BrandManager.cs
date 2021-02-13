@@ -1,4 +1,9 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilites.DataResults;
+using Core.Utilites.DataResults.MethodDataResult;
+using Core.Utilites.Results;
+using Core.Utilites.Results.MethodResult;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using System;
@@ -17,19 +22,21 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public Brand GetBrandById(int id)
+        public IDataResult<Brand> GetBrandById(int id)
         {
             var result = _brandDal.Get(p => p.BrandId == id);
-            return result;
+            return new SuccessDataResult<Brand>(result,Messages.ObjectList) ;
         }
-        public List<Brand> GetAllBrands()
+        public IDataResult<List<Brand>> GetAllBrands()
         {
             var result = _brandDal.GetAll();
-            return result;
+            return new SuccessDataResult<List<Brand>>(result, Messages.ObjectList);
+
         }
-        public void Add(Brand brand)
+        public IResult Add(Brand brand)
         {
             _brandDal.Add(brand);
+            return new SuccessResult(Messages.ObjectAdded);
         }
     }
 }
