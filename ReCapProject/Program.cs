@@ -142,6 +142,7 @@ namespace ReCapProject
                         case "2":
                             break;
                         case "3":
+                            RentalUpdate();
                             break;
                         case "4":
                             RentalsList();
@@ -222,31 +223,33 @@ namespace ReCapProject
             Rentals rentals1 = new Rentals();
             foreach (var item in rentals.GetAll().Data)
             {
-                Console.WriteLine(item.CarId + " " + item.RentDate + " " + item.ReturnDate);
+                Console.WriteLine("Arabanın Idsi " + item.CarId + " Alınış tarihi " + item.RentDate + " Verilmesi gereken tarih " + item.ReturnDate);
             }
         }
 
         private static void RentalUpdate()
         {
             RentalsManager rentals = new RentalsManager(new EfRentalsDal());
-            Rentals rentals1 = new Rentals();
-            Console.WriteLine("Hangi bilgiyi güncellemek istediğinizi seçin");
-            Console.WriteLine("CarId 1");
-            Console.WriteLine("ReturnDate 2");
-            switch (Console.ReadLine())
+            Console.WriteLine("Güncellemek istediğiniz kiralamanın Id'sini giriniz");
+            var result = rentals.GetRentalsById(Convert.ToInt32(Console.ReadLine())).Data;
+            
+            Console.WriteLine("Aracınızı hemen şimdi vermek için 1");
+            Console.WriteLine("Aracın veriliş tarihini güncellemek için 2");
+            if (Console.ReadLine() == "1")
             {
-                case "1":
-                    break;
-                    //foreach (var item in rentals.GetRentalsById()
-                    //{
-
-                    //}
-                case "2":
-                    break;
-                
-                    
+                result.ReturnDate = DateTime.Now;
+                Console.WriteLine(result.ReturnDate);
+                Console.Read();
             }
+            else if(Console.ReadLine()=="2")
+            {
+                Console.WriteLine(result.ReturnDate);
+                Console.WriteLine("Arabayı vermek istediğiniz tarihi değiştirmek için tarihi 01/01/2020 Formatında giriniz");
+                result.ReturnDate = Convert.ToDateTime(Console.ReadLine());
+                Console.WriteLine(result.ReturnDate);
+                Console.Read();
 
+            }
         }
         #endregion
 
@@ -290,7 +293,7 @@ namespace ReCapProject
                 case "Listele":
                     UsersManager users = new UsersManager(new EfUsersDal());
                     foreach (var item in users.GetAll().Data)
-                        Console.WriteLine(item.FirstName+" "+item.LastName+" "+item.Id);
+                        Console.WriteLine(item.FirstName + " " + item.LastName + " " + item.Id);
                     break;
                 case "listele":
                     UsersManager userss = new UsersManager(new EfUsersDal());

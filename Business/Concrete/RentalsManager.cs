@@ -68,7 +68,6 @@ namespace Business.Concrete
                 if (result.ReturnDate == null)
                 {
                     //geri getiriliş tarihini şimdiye ayarlıyor
-                    result.ReturnDate = DateTime.Now;
                     _rentalsDal.Update(result);
                     Console.WriteLine("Aracınız geri teslim edilmiştir");
                     return new SuccessResult(Messages.ObjectUpdate);
