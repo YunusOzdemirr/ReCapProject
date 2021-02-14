@@ -232,7 +232,7 @@ namespace ReCapProject
             RentalsManager rentals = new RentalsManager(new EfRentalsDal());
             Console.WriteLine("Güncellemek istediğiniz kiralamanın Id'sini giriniz");
             var result = rentals.GetRentalsById(Convert.ToInt32(Console.ReadLine())).Data;
-            
+
             Console.WriteLine("Aracınızı hemen şimdi vermek için 1");
             Console.WriteLine("Aracın veriliş tarihini güncellemek için 2");
             if (Console.ReadLine() == "1")
@@ -241,16 +241,45 @@ namespace ReCapProject
                 Console.WriteLine(result.ReturnDate);
                 Console.Read();
             }
-            else if(Console.ReadLine()=="2")
+            else if (Console.ReadLine() == "2")
             {
                 Console.WriteLine(result.ReturnDate);
-                Console.WriteLine("Arabayı vermek istediğiniz tarihi değiştirmek için tarihi 01/01/2020 Formatında giriniz");
-                result.ReturnDate = Convert.ToDateTime(Console.ReadLine());
-                Console.WriteLine(result.ReturnDate);
-                Console.Read();
-
+                Console.WriteLine("Arabayı veriliş tarihini manuel girmek için 1");
+                Console.WriteLine("Arabayı veriliş üstüne tarih ekleyerek vermek için 2 yazınız");
+                switch (Console.ReadLine())
+                {
+                    case "1":
+                        Console.WriteLine("Arabayı vermek istediğiniz tarihi değiştirmek için tarihi 01/01/2020 Formatında giriniz");
+                        result.ReturnDate = Convert.ToDateTime(Console.ReadLine());
+                        Console.WriteLine(result.ReturnDate);
+                        Console.Read();
+                        break;
+                    case "2":
+                        do
+                        {
+                            Console.WriteLine("Veriliş süresine 5 gün eklemek için 1");
+                            Console.WriteLine("Veriliş süresine ek gün eklemek için 2");
+                            Console.WriteLine("Consoldan çıkmak için 'Bitti' yazınız");
+                            switch (Console.ReadLine())
+                            {
+                                case "1":
+                                    result.ReturnDate = DateTime.Today.AddDays(5);
+                                    //result.ReturnDate =Convert.ToDateTime(Console.ReadLine());
+                                    Console.WriteLine(result.ReturnDate);
+                                    Console.Read();
+                                    break;
+                                case "2":
+                                    result.ReturnDate = DateTime.Today.Add(TimeSpan.FromDays(Convert.ToDouble(Console.ReadLine())));
+                                    Console.WriteLine(result.ReturnDate);
+                                    Console.Read();
+                                    break;
+                            }
+                        } while (Console.ReadLine() == "Bitti");
+                        break;
+                }
             }
         }
+
         #endregion
 
 
