@@ -11,9 +11,13 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Car> Car { get; set; }
         public DbSet<Color> Color { get; set; }
         public DbSet<Brand> Brand { get; set; }
+        public DbSet<Users> Users { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Rentals> Rentals { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=ReCapProject;Trusted_Connection=true");
         }
+      
     }
 }

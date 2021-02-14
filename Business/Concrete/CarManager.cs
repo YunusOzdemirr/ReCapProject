@@ -55,5 +55,21 @@ namespace Business.Concrete
             var result = _carDal.GetCarDetails();
             return new SuccessDataResult<List<CarDetailDto>>(result, Messages.ObjectList);
         }
+
+      
+
+        public IResult Update(int carId)
+        {
+            var result = _carDal.Get(p => p.CarId == carId);
+            _carDal.Update(result);
+            return new SuccessResult(Messages.ObjectUpdate);
+        }
+
+        public IResult Delete(int carId)
+        {
+            var result = _carDal.Get(p => p.CarId == carId);
+            _carDal.Delete(result);
+            return new SuccessResult(Messages.ObjectDeleted);
+        }
     }
 }
