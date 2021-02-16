@@ -23,7 +23,7 @@ namespace Core.Utilites.DataResults.MethodDataResult
 
         }
         //ister datayı default ver hiç bir şey yani T gönder sadece  message verme true gönder base e
-        public SuccessDataResult() : base(default, true)
+        public SuccessDataResult() : base(default, true) 
         {
 
         }
