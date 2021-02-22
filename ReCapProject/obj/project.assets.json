@@ -5971,11 +5971,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
       "projectName": "ReCapProject",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\ReCapProject\\ReCapProject.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\ReCapProject\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\ReCapProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -5997,14 +5997,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Business\\Business.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }

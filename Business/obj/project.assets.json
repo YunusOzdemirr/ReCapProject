@@ -6501,11 +6501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Business\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6527,11 +6527,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }

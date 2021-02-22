@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TEhgJ8nCma5kY0FNy3LcNta4B3hIEWCGUC7+0mxZ7x7tC437CI9DyjE5M4Td8W0zof8mHEwcDH5kW3FF+dAjMQ==",
+  "dgSpecHash": "JuxOYlEeS0WZisYhFCKXQC/GtWsBoDzDMgvegQcDsGPxxztTK7Xkd0G5WlMKT5XvUH6nGoTMifRA/zPte3mcQQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ares\\Desktop\\AllProjects\\ReCapProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ares\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\Ares\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
