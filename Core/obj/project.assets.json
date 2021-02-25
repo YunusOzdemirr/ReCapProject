@@ -6441,11 +6441,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

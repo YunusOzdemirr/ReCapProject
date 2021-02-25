@@ -6459,11 +6459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6485,8 +6485,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj"
             }
           }
         }

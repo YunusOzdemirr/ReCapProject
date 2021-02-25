@@ -6479,11 +6479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6505,11 +6505,11 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Core\\Core.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Yazilim\\AllProjects\\ReCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }
