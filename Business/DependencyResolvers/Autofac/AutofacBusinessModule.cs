@@ -18,6 +18,11 @@ namespace Business.DependencyResolvers.Autofac
         {
             builder.RegisterType<CarManager>().As<ICarService>().SingleInstance();
             builder.RegisterType<EfCarDal>().As<ICarDal>().SingleInstance();
+
+            builder.RegisterType<CarImageManager>().As<ICarImagesService>().SingleInstance();
+            builder.RegisterType<EfCarImagesDal>().As<ICarImagesDal>().SingleInstance();
+
+
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             //validate etmeyi sağlıyor
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
