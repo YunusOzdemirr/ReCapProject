@@ -22,6 +22,11 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<CarImageManager>().As<ICarImagesService>().SingleInstance();
             builder.RegisterType<EfCarImagesDal>().As<ICarImagesDal>().SingleInstance();
 
+            builder.RegisterType<CustomerManager>().As<ICustomerService>().SingleInstance();
+            builder.RegisterType<EfCustomerDal>().As<ICustomerDal>().SingleInstance();
+
+            builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
+            builder.RegisterType<EfColorDal>().As<IColorDal>().SingleInstance();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             //validate etmeyi sağlıyor
