@@ -46,7 +46,6 @@ namespace WebAPI
             //services.AddSingleton<IUsersDal, EfUsersDal>();
             //services.AddSingleton<IRentalsService, RentalsManager>();
             //services.AddSingleton<IRentalsDal, EfRentalsDal>();
-            services.AddDirectoryBrowser();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI.Api", Version = "v1" });
@@ -62,24 +61,6 @@ namespace WebAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CustomerHomework.Api v1"));
             }
-
-            app.UseStaticFiles();
-            app.UseStaticFiles(new StaticFileOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-          Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images")),
-                RequestPath = "/MyImages"
-            });
-
-            app.UseDefaultFiles();
-            app.UseDirectoryBrowser(new DirectoryBrowserOptions
-            {
-                FileProvider = new PhysicalFileProvider(
-           Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images")),
-                RequestPath = "/MyImages"
-            });
-
-
 
             app.UseHttpsRedirection();
 
