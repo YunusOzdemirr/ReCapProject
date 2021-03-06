@@ -34,7 +34,6 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<BrandManager>().As<IBrandService>().SingleInstance();
             builder.RegisterType<EfBrandDal>().As<IBrandDal>().SingleInstance();
 
-
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             //validate etmeyi sağlıyor
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()

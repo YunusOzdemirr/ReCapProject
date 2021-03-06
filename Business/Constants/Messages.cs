@@ -13,7 +13,7 @@ namespace Business.Constants
         public static string ObjectDeleted = "Nesne Silindi";
         public static string ObjectUpdate = "Nesne Güncellendi";
         public static string ErrorMessage = "Hata Var";
-
+        public static string Exist = "Böyle bir Nesne zaten mevcut";
         public static string CarImageLimitExceeded = "Araba fotoğrafı limiti aşıldı";
     }
 }
