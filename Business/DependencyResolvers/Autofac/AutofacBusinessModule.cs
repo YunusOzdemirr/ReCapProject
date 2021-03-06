@@ -28,6 +28,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<ColorManager>().As<IColorService>().SingleInstance();
             builder.RegisterType<EfColorDal>().As<IColorDal>().SingleInstance();
 
+            builder.RegisterType<UsersManager>().As<IUsersService>().SingleInstance();
+            builder.RegisterType<EfUsersDal>().As<IUsersDal>().SingleInstance();
+
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
             //validate etmeyi sağlıyor
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
