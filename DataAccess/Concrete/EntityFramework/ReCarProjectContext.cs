@@ -15,6 +15,10 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Customer> Customer { get; set; }
         public DbSet<Rentals> Rentals { get; set; }
         public DbSet<CarImage> CarImages{ get; set; }
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+            
+        //}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=ReCapProject;Trusted_Connection=true");
