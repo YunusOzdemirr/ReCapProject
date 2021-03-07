@@ -33,20 +33,26 @@ namespace Business.Concrete
             var result = _colorDal.GetAll();
             return new SuccessDataResult<List<Color>>(result,Messages.ObjectList);
         }
-        public IDataResult<Color> GetColorById(int id)
+        public IDataResult<Color> GetColorById(int colorId)
         {
-            var result = _colorDal.Get(p => p.ColorId == id);
+            var result = _colorDal.Get(p => p.ColorId == colorId);
             return new SuccessDataResult<Color>(result, Messages.ObjectList);
 
         }
-        public IResult Update(int id)
+        public IResult Update(int colorId)
         {
-            var result = _colorDal.Get(p => p.ColorId == id);
+            var result = _colorDal.Get(p => p.ColorId == colorId);
             if (result != null)
             {
                 return new SuccessResult(Messages.ObjectUpdate);
             }
             return new ErrorResult(Messages.ErrorMessage);
+        }
+        public IResult Delete(int colorId)
+        {
+            var result = _colorDal.Get(p => p.ColorId == colorId);
+            _colorDal.Delete(result);
+            return new SuccessResult(Messages.ObjectDeleted);
         }
     }
 }

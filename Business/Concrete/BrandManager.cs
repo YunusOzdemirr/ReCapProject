@@ -22,9 +22,9 @@ namespace Business.Concrete
             _brandDal = brandDal;
         }
 
-        public IDataResult<Brand> GetBrandById(int id)
+        public IDataResult<Brand> GetBrandById(int brandId)
         {
-            var result = _brandDal.Get(p => p.BrandId == id);
+            var result = _brandDal.Get(p => p.BrandId == brandId);
             return new SuccessDataResult<Brand>(result,Messages.ObjectList) ;
         }
         public IDataResult<List<Brand>> GetAllBrands()
@@ -39,9 +39,9 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ObjectAdded);
         }
 
-        public IResult Update(int id)
+        public IResult Update(int brandId)
         {
-            var result = _brandDal.Get(p => p.BrandId == id);
+            var result = _brandDal.Get(p => p.BrandId == brandId);
             if (result!=null)
             {
                 return new SuccessResult(Messages.ObjectUpdate);
