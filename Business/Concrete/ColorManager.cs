@@ -39,5 +39,14 @@ namespace Business.Concrete
             return new SuccessDataResult<Color>(result, Messages.ObjectList);
 
         }
+        public IResult Update(int id)
+        {
+            var result = _colorDal.Get(p => p.ColorId == id);
+            if (result != null)
+            {
+                return new SuccessResult(Messages.ObjectUpdate);
+            }
+            return new ErrorResult(Messages.ErrorMessage);
+        }
     }
 }
