@@ -38,5 +38,15 @@ namespace Business.Concrete
             _brandDal.Add(brand);
             return new SuccessResult(Messages.ObjectAdded);
         }
+
+        public IResult Update(int id)
+        {
+            var result = _brandDal.Get(p => p.BrandId == id);
+            if (result!=null)
+            {
+                return new SuccessResult(Messages.ObjectUpdate);
+            }
+            return new ErrorResult(Messages.ErrorMessage);
+        }
     }
 }
