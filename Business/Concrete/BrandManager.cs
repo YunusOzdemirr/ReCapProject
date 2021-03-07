@@ -48,5 +48,11 @@ namespace Business.Concrete
             }
             return new ErrorResult(Messages.ErrorMessage);
         }
+        public IResult Delete(int brandId)
+        {
+            var result = _brandDal.Get(p => p.BrandId == brandId);
+            _brandDal.Delete(result);
+            return new SuccessResult(Messages.ObjectDeleted);
+        }
     }
 }
