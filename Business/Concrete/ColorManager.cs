@@ -13,7 +13,7 @@ using System.Text;
 
 namespace Business.Concrete
 {
-    public class ColorManager:IColorService
+    public class ColorManager : IColorService
     {
         IColorDal _colorDal;
 
@@ -24,6 +24,11 @@ namespace Business.Concrete
 
         public IResult Add(Color color)
         {
+            var result = _colorDal.Get(b => b.Name == color.Name);
+            if (result != null)
+            {
+                return new ErrorResult(Messages.Exist);
+            }
             _colorDal.Add(color);
             return new SuccessResult(Messages.ObjectAdded);
         }
@@ -31,7 +36,7 @@ namespace Business.Concrete
         public IDataResult<List<Color>> GetAllColors()
         {
             var result = _colorDal.GetAll();
-            return new SuccessDataResult<List<Color>>(result,Messages.ObjectList);
+            return new SuccessDataResult<List<Color>>(result, Messages.ObjectList);
         }
         public IDataResult<Color> GetColorById(int colorId)
         {
