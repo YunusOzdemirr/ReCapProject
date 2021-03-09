@@ -46,7 +46,12 @@ namespace Business.Concrete
         public IResult Add(Car car)
         {
             // car.Description.Length > 2 && car.DailyPrice > 0 ? _carDal.Add(car) : Console.WriteLine("Hata");
-             _carDal.Add(car);
+            //var result = _carDal.Get(b => b.Description == car.Description);
+            //if (result!=null)
+            //{
+            //    return new ErrorResult(Messages.Exist);
+            //}
+            _carDal.Add(car);
             return new SuccessResult(Messages.ObjectAdded);
 
         }
