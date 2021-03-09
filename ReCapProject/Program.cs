@@ -13,7 +13,7 @@ namespace ReCapProject
         {
             Console.WriteLine("Hoşgeldiniz devam etmek için herhangi bir tuşa basınız");
             Console.ReadLine();
-
+            Console.WriteLine("Bu Proje üstünde oldukça uğraşılmıştır ve sürekli olarak geliştirilmeye devam edilecek bir projedir indiren veya inceleyen herkese yol gösterme amacı ile başarılar ve kolay gelsin :))");
             Console.WriteLine("Araba ile işlemler için 1");
             Console.WriteLine("Marka ile işlemler için 2");
             Console.WriteLine("Renk ile işlemler için 3");
