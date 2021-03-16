@@ -12,7 +12,7 @@ using System.Text;
 
 namespace Core.Utilites.Security.JWT
 {
-    public class JwtHelper
+    public class JwtHelper:ITokenHelper
     {
         public IConfiguration Configuration { get; }
         private TokenOptions _tokenOptions;

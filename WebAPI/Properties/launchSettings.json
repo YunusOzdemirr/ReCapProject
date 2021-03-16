@@ -1,10 +1,4 @@
 ﻿{
-  "TokenOptions": {
-    "Audience": "Yunus@yunus.com",
-    "Issuer": "Yunus@yunus.com",
-    "AccessTokenExpiration": 10,
-    "SecurityKey": "mysupersecretkeymysupersecretkey"
-  },
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
     "windowsAuthentication": false,

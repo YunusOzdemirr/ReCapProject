@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[6.1.0, )"
             },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
             "Autofac.Extras.DynamicProxy": {
               "target": "Package",
               "version": "[6.0.0, )"
@@ -63,13 +67,9 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.AspNetCore.Http.Features": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[5.0.3, )"
-            },
-            "Microsoft.TestPlatform.ObjectModel": {
-              "target": "Package",
-              "version": "[16.9.1, )"
+              "version": "[6.0.0-preview.1.21102.12, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -362,6 +362,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[7.1.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
