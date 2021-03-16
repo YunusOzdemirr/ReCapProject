@@ -1,5 +1,6 @@
 using Business.Abstract;
 using Business.Concrete;
+using Core.Utilites.IoC;
 using Core.Utilites.Security.Encryption;
 using Core.Utilites.Security.JWT;
 using DataAccess.Abstract;
@@ -69,6 +70,7 @@ namespace WebAPI
                        IssuerSigningKey = SecurityKeyHelper.CreateSecurityKey(tokenOptions.SecurityKey)
                    };
                });
+            ServiceTool.Create(services);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
