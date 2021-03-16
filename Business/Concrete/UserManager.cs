@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Core.Entities.Concrete;
 using Core.Utilites.DataResults;
 using Core.Utilites.DataResults.MethodDataResult;
 using Core.Utilites.Results;
@@ -12,16 +13,16 @@ using System.Text;
 
 namespace Business.Concrete
 {
-    public class UsersManager : IUsersService
+    public class UserManager : IUserService
     {
-        IUsersDal _userDal;
+        IUserDal _userDal;
 
-        public UsersManager(IUsersDal userService)
+        public UserManager(IUserDal userService)
         {
             _userDal = userService;
         }
 
-        public IResult Add(Users user)
+        public IResult Add(User user)
         {
             _userDal.Add(user);
             return new SuccessResult(Messages.ObjectAdded);
@@ -34,24 +35,35 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ObjectDeleted);
         }
 
-        public IDataResult<List<Users>> GetAll()
+        public IDataResult<List<User>> GetAll()
         {
             var result = _userDal.GetAll();
-            return new SuccessDataResult<List<Users>>(result, Messages.ObjectList);
+            return new SuccessDataResult<List<User>>(result, Messages.ObjectList);
         }
 
      
-        public IDataResult<Users> GetUsersById(int userId)
+        public IDataResult<User> GetUsersById(int userId)
         {
             var result = _userDal.Get(p => p.Id == userId);
-            return new SuccessDataResult<Users>(result, Messages.ObjectDeleted);
+            return new SuccessDataResult<User>(result, Messages.ObjectDeleted);
         }
 
         public IResult Update(int userId)
         {
             var result = _userDal.Get(p => p.Id == userId);
             _userDal.Update(result);
-            return new SuccessDataResult<Users>(result, Messages.ObjectDeleted);
+            return new SuccessDataResult<User>(result, Messages.ObjectDeleted);
+        }
+
+        public List<OperationClaim> GetClaims(User user)
+        {
+            return _userDal.GetClaims(user);
+        }
+
+
+        public Core.Entities.Concrete.User GetByMail(string email)
+        {
+            return _userDal.Get(u => u.Email == email);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Business.Concrete;
+using Core.Entities.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -167,7 +168,7 @@ namespace ReCapProject
             switch (Console.ReadLine())
             {
                 case "Listele":
-                    UsersManager users = new UsersManager(new EfUsersDal());
+                    UserManager users = new UserManager(new EfUserDal());
                     var result = users.GetAll().Data;
                     foreach (var item in result)
                     {
@@ -175,7 +176,7 @@ namespace ReCapProject
                     }
                     break;
                 case "listele":
-                    UsersManager userss = new UsersManager(new EfUsersDal());
+                    UserManager userss = new UserManager(new EfUserDal());
                     var results = userss.GetAll().Data;
                     foreach (var item in results)
                     {
@@ -286,8 +287,8 @@ namespace ReCapProject
         #region User İşlemleri
         private static void UserAdd()
         {
-            UsersManager users = new UsersManager(new EfUsersDal());
-            Users users1 = new Users();
+            UserManager users = new UserManager(new EfUserDal());
+            User users1 = new User();
             Console.WriteLine("Lütfen kullanıcı eklerken aynı maile sahip başka bir kullanıcı eklemeye çalışmayın");
             Console.WriteLine("Bir kullanıcı adı giriniz");
             users1.FirstName = Console.ReadLine();
@@ -299,7 +300,7 @@ namespace ReCapProject
             users1.Email = Console.ReadLine();
 
             Console.WriteLine("Bir kullanıcı şifresi giriniz");
-            users1.Passwordd = Console.ReadLine();
+            //users1.Password = Console.ReadLine();
             users.Add(users1);
             Console.WriteLine(users1.FirstName + " adlı kullanıcı eklenmiştir");
 
@@ -320,12 +321,12 @@ namespace ReCapProject
             switch (Console.ReadLine())
             {
                 case "Listele":
-                    UsersManager users = new UsersManager(new EfUsersDal());
+                    UserManager users = new UserManager(new EfUserDal());
                     foreach (var item in users.GetAll().Data)
                         Console.WriteLine(item.FirstName + " " + item.LastName + " " + item.Id);
                     break;
                 case "listele":
-                    UsersManager userss = new UsersManager(new EfUsersDal());
+                    UserManager userss = new UserManager(new EfUserDal());
                     foreach (var item in userss.GetAll().Data)
                         Console.WriteLine(item.FirstName + " " + item.LastName + " " + item.Id);
                     break;

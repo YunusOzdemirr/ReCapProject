@@ -1,6 +1,4 @@
-﻿using Core.DataAccess;
-using Core.Entites;
-
+﻿using Core.Entites;
 namespace Core.Entities.Concrete
 {
     public class OperationClaim:IEntity

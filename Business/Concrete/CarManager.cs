@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAscpects.Autofac;
 using Business.Constants;
 using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
@@ -42,6 +43,7 @@ namespace Business.Concrete
             var GetCar = _carDal.GetAll(c => c.ColorId == colorId).ToList();
             return new SuccessDataResult<List<Car>>(GetCar, Messages.ObjectList);
         }
+        [SecuredOperation("car.add,admin")]
         [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -15,5 +16,14 @@ namespace Business.Constants
         public static string ErrorMessage = "Hata Var";
         public static string Exist = "Böyle bir Nesne zaten mevcut";
         public static string CarImageLimitExceeded = "Araba fotoğrafı limiti aşıldı";
+
+        public static string AuthorizationDenied = "Yetki yok";
+
+        public static string UserRegistered = "Kullanıcı kaydı oluşturuldu";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Başarılı giriş";
+        public static string UserAlreadyExists = "Kullanıcı mevcut";
+        public static string AccessTokenCreated = "Token oluşturuldu";
     }
 }
