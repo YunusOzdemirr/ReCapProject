@@ -34,13 +34,13 @@ namespace Business.Concrete
 
         public IDataResult<List<Car>> GetCarsByBrandId(int brandId)
         {
-            var GetCarId = _carDal.GetAll(p => p.CarId == brandId).ToList();
-            return new SuccessDataResult<List<Car>>(GetCarId, Messages.ObjectList);
+           
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(p => p.BrandId == brandId), Messages.ObjectList);
 
         }
         public IDataResult<List<Car>> GetCarsByColorId(int colorId)
         {
-            var GetCar = _carDal.GetAll(c => c.ColorId == colorId).ToList();
+            var GetCar = _carDal.GetAll(c => c.ColorId == colorId);
             return new SuccessDataResult<List<Car>>(GetCar, Messages.ObjectList);
         }
         //[SecuredOperation("car.add,admin")]
