@@ -16,10 +16,12 @@ namespace Business.Concrete
     public class BrandManager : IBrandService
     {
         IBrandDal _brandDal;
+        ICarDal _carDal;
 
-        public BrandManager(IBrandDal brandDal)
+        public BrandManager(IBrandDal brandDal, ICarDal carDal)
         {
             _brandDal = brandDal;
+            _carDal = carDal;
         }
 
         public IDataResult<Brand> GetBrandById(int brandId)
@@ -58,6 +60,12 @@ namespace Business.Concrete
             var result = _brandDal.Get(p => p.BrandId == brandId);
             _brandDal.Delete(result);
             return new SuccessResult(Messages.ObjectDeleted);
+        }
+
+        public IDataResult<List<Car>> GetCarsByBrandId(int brandId)
+        {
+            var result =_carDal.GetAll(b => b.BrandId == brandId).ToList();
+            return new SuccessDataResult<List<Car>>(result, Messages.ObjectList);
         }
     }
 }

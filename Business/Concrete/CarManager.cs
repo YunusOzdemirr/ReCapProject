@@ -43,8 +43,8 @@ namespace Business.Concrete
             var GetCar = _carDal.GetAll(c => c.ColorId == colorId).ToList();
             return new SuccessDataResult<List<Car>>(GetCar, Messages.ObjectList);
         }
-        [SecuredOperation("car.add,admin")]
-        [ValidationAspect(typeof(CarValidator))]
+        //[SecuredOperation("car.add,admin")]
+        //[ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
             // car.Description.Length > 2 && car.DailyPrice > 0 ? _carDal.Add(car) : Console.WriteLine("Hata");
@@ -76,6 +76,12 @@ namespace Business.Concrete
             var result = _carDal.Get(p => p.CarId == carId);
             _carDal.Delete(result);
             return new SuccessResult(Messages.ObjectDeleted);
+        }
+
+        public IDataResult<Car> GetById(int id)
+        {
+            var result = _carDal.Get(b => b.CarId == id);
+            return new SuccessDataResult<Car>(result);
         }
     }
 }

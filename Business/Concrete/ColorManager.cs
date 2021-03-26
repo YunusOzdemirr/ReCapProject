@@ -16,10 +16,12 @@ namespace Business.Concrete
     public class ColorManager : IColorService
     {
         IColorDal _colorDal;
+        ICarDal _carDal;
 
-        public ColorManager(IColorDal colorDal)
+        public ColorManager(IColorDal colorDal, ICarDal carDal)
         {
             _colorDal = colorDal;
+            _carDal = carDal;
         }
 
         public IResult Add(Color color)
@@ -58,6 +60,12 @@ namespace Business.Concrete
             var result = _colorDal.Get(p => p.ColorId == colorId);
             _colorDal.Delete(result);
             return new SuccessResult(Messages.ObjectDeleted);
+        }
+
+        public IDataResult<List<Car>> GetCarsByColorId(int colorId)
+        {
+            var result=_carDal.GetAll(b => b.ColorId == colorId).ToList();
+            return new SuccessDataResult<List<Car>>(result, Messages.ObjectList);
         }
     }
 }
