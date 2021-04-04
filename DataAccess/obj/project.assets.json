@@ -6702,7 +6702,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ares\\.nuget\\packages\\": {}
+    "C:\\Users\\Ares\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -6713,8 +6714,12 @@
       "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Ares\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
