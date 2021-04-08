@@ -6313,48 +6313,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ares\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/yunus/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\Ares\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\WebAPI\\obj\\",
+      "projectPath": "/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/WebAPI.csproj",
+      "packagesPath": "/Users/yunus/.nuget/packages/",
+      "outputPath": "/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ares\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/yunus/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Business\\Business.csproj"
+            "/Users/yunus/Documents/GitHub/ReCapProject/Business/Business.csproj": {
+              "projectPath": "/Users/yunus/Documents/GitHub/ReCapProject/Business/Business.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Core\\Core.csproj"
+            "/Users/yunus/Documents/GitHub/ReCapProject/Core/Core.csproj": {
+              "projectPath": "/Users/yunus/Documents/GitHub/ReCapProject/Core/Core.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "/Users/yunus/Documents/GitHub/ReCapProject/DataAccess/DataAccess.csproj": {
+              "projectPath": "/Users/yunus/Documents/GitHub/ReCapProject/DataAccess/DataAccess.csproj"
             },
-            "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\Ares\\Desktop\\Yunus\\Github\\ReCapProject\\Entities\\Entities.csproj"
+            "/Users/yunus/Documents/GitHub/ReCapProject/Entities/Entities.csproj": {
+              "projectPath": "/Users/yunus/Documents/GitHub/ReCapProject/Entities/Entities.csproj"
             }
           }
         }
@@ -6400,7 +6393,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

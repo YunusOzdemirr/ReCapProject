@@ -21,7 +21,9 @@ namespace ReCapProject
             Console.WriteLine("Kullanıcı ile işlemler için 4");
             Console.WriteLine("Müşteri ile işlemler için 5");
             Console.WriteLine("Kiralama ile işlemler için 6");
-            switch (Console.ReadLine())
+            Console.WriteLine("Nabersin hocam ");
+            Console.WriteLine("asd");
+            switch(Console.ReadLine())
             {
                 case "1":
                     Console.WriteLine("Araba eklemek için 1");
@@ -355,7 +357,7 @@ namespace ReCapProject
         #region Marka İşlemleri
         private static void BrandAdd()
         {
-            BrandManager brand = new BrandManager(new EfBrandDal());
+            BrandManager brand = new BrandManager(new EfBrandDal(),new EfCarDal());
             Console.WriteLine("Bir Marka adı ekleyiniz");
             Console.WriteLine("Lütfen olan Marka adını tekrar girmeyiniz");
             Console.WriteLine("Varolan Marka adlarını listelemek için listele yazınız");
