@@ -1,19 +1,17 @@
-﻿<Properties StartupConfiguration="{7F724372-9E01-434B-BD15-3EDB4ABD4B42}|Default">
+﻿<Properties StartupConfiguration="{B36CB9B5-705D-4CEE-A9BB-4A16B8B65126}|Default">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs">
+  <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Dockerfile">
     <Files>
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="28" Column="117" />
+      <File FileName="WebAPI/Dockerfile" Line="22" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="DataAccess" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="ReCarProjectContext.cs" selected="True" />
-                </Node>
-              </Node>
+            <Node name="docker-compose" expanded="True" />
+            <Node name="WebAPI" expanded="True">
+              <Node name="Dockerfile" selected="True" />
             </Node>
           </Node>
         </State>
@@ -22,6 +20,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
