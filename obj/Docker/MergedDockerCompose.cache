@@ -1,0 +1,16 @@
+services:
+  webapi:
+    build:
+      context: /Users/yunus/Documents/GitHub/ReCapProject
+      dockerfile: WebAPI/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: webapi
+    ports:
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/yunus/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/yunus/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'
