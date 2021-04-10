@@ -25,7 +25,8 @@ namespace DataAccess.Concrete.EntityFramework
         //}
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=ReCapProject;Trusted_Connection=true");
+            //optionsBuilder.UseSqlServer(@"Server=(LocalDB)\MSSQLLocalDB;Database=ReCapProject;Trusted_Connection=true");
+            optionsBuilder.UseSqlServer(@"Server=localhost;Database=ReCapProject;User=sa;Password=Password123@jkl#;");
         }
       
     }
