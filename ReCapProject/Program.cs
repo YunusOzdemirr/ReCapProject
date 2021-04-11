@@ -389,7 +389,7 @@ namespace ReCapProject
         #region Renk İşlemleri
         private static void ColorAdd()
         {
-            ColorManager color = new ColorManager(new EfColorDal());
+            ColorManager color = new ColorManager(new EfColorDal(),new EfCarDal());
             Color color1 = new Color();
 
             Console.WriteLine("Bir Renk adı ekleyiniz");
@@ -422,8 +422,8 @@ namespace ReCapProject
         #region Araba İşlemleri
         private static void CarAdd()
         {
-            BrandManager brand = new BrandManager(new EfBrandDal());
-            ColorManager color = new ColorManager(new EfColorDal());
+            BrandManager brand = new BrandManager(new EfBrandDal(),new EfCarDal());
+            ColorManager color = new ColorManager(new EfColorDal(), new EfCarDal());
             CarManager car = new CarManager(new EfCarDal());
             Console.WriteLine("Bir Araba ekleyeceksiniz devam etmek için enter tuşuna basın");
             Car car1 = new Car();

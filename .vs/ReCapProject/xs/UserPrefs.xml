@@ -1,34 +1,32 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs">
     <Files>
       <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="24" Column="1" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="21" Column="1" />
-      <File FileName="WebAPI/Startup.cs" Line="1" Column="1" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="48" Column="1" />
+      <File FileName="WebAPI/Startup.cs" />
+      <File FileName="ReCapProject/Program.cs" Line="425" Column="82" />
+      <File FileName="Core/Aspects/Autofac/Validation/ValidationAspect.cs" Line="21" Column="1" />
+      <File FileName="Core/CrossCuttingConcerns/Validation/ValidationTool.cs" Line="19" Column="10" />
+      <File FileName="Core/Extensions/ClaimExtensions.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Business/BusinessRules.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/DataResults/MethodDataResult/ErrorDataResult.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/DataResults/MethodDataResult/SuccessDataResult.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Helpers/FileHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Interceptors/AspectInterceptorSelector.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Interceptors/MethodInterception.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Interceptors/MethodInterceptionBaseAttribute.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/IoC/ServiceTool.cs" Line="16" Column="6" />
+      <File FileName="Core/Utilites/Security/Encryption/SecurityKeyHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True">
-            <Node name="Core" expanded="True">
-              <Node name="DataAccess" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="DataAccess" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="WebAPI" expanded="True">
-              <Node name="Startup.cs" selected="True" />
-            </Node>
-          </Node>
+          <Node name="ReCapProject" expanded="True" />
         </State>
-      </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
