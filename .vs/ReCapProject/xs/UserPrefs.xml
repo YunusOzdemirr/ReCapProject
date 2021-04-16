@@ -1,38 +1,24 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/BrandsController.cs">
     <Files>
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="24" Column="1" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
-      <File FileName="WebAPI/Startup.cs" />
-      <File FileName="ReCapProject/Program.cs" />
-      <File FileName="Core/Aspects/Autofac/Validation/ValidationAspect.cs" />
-      <File FileName="Core/CrossCuttingConcerns/Validation/ValidationTool.cs" />
-      <File FileName="Core/Extensions/ClaimExtensions.cs" />
-      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" />
-      <File FileName="Core/Utilites/Business/BusinessRules.cs" />
-      <File FileName="Core/Utilites/DataResults/MethodDataResult/ErrorDataResult.cs" />
-      <File FileName="Core/Utilites/DataResults/MethodDataResult/SuccessDataResult.cs" />
-      <File FileName="Core/Utilites/Helpers/FileHelper.cs" />
-      <File FileName="Core/Utilites/Interceptors/AspectInterceptorSelector.cs" />
-      <File FileName="Core/Utilites/Interceptors/MethodInterception.cs" />
-      <File FileName="Core/Utilites/Interceptors/MethodInterceptionBaseAttribute.cs" />
-      <File FileName="Core/Utilites/IoC/ServiceTool.cs" />
-      <File FileName="Core/Utilites/Security/Encryption/SecurityKeyHelper.cs" />
-      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="16" Column="1" />
+      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/BrandsController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
             <Node name="Core" expanded="True">
-              <Node name="Utilites" expanded="True">
-                <Node name="Security" expanded="True">
-                  <Node name="Encryption" expanded="True">
-                    <Node name="SigningCredentialsHelper.cs" selected="True" />
-                  </Node>
-                </Node>
+              <Node name="CrossCuttingConcerns" expanded="True">
+                <Node name="Validation" expanded="True" />
+              </Node>
+              <Node name="Utilites" expanded="True" />
+            </Node>
+            <Node name="WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="BrandsController.cs" selected="True" />
               </Node>
             </Node>
           </Node>
