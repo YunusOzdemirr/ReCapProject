@@ -1,25 +1,26 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/BrandsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs">
     <Files>
       <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
-      <File FileName="WebAPI/Controllers/BrandsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/BrandsController.cs" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="48" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="29" Column="117" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="Core" expanded="True">
-              <Node name="CrossCuttingConcerns" expanded="True">
-                <Node name="Validation" expanded="True" />
+            <Node name="DataAccess" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="EntityFramework" expanded="True">
+                  <Node name="ReCarProjectContext.cs" selected="True" />
+                </Node>
               </Node>
-              <Node name="Utilites" expanded="True" />
             </Node>
             <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="BrandsController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
             </Node>
           </Node>
         </State>
