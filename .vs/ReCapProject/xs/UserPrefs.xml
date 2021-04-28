@@ -1,29 +1,20 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="WebAPI/Controllers/AuthController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs">
     <Files>
       <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
-      <File FileName="WebAPI/Controllers/BrandsController.cs" />
+      <File FileName="WebAPI/Controllers/BrandsController.cs" Line="72" Column="39" />
       <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="29" Column="117" />
-      <File FileName="WebAPI/Controllers/AuthController.cs" Line="16" Column="43" />
+      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" />
+      <File FileName="Core/Extensions/ClaimExtensions.cs" Line="1" Column="1" />
+      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True">
-            <Node name="DataAccess" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="AuthController.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="ReCapProject" expanded="True" />
         </State>
       </Pad>
     </Pads>
