@@ -29,12 +29,14 @@ namespace Business.Concrete
             var result = _brandDal.Get(p => p.BrandId == brandId);
             return new SuccessDataResult<Brand>(result,Messages.ObjectList) ;
         }
+
         public IDataResult<List<Brand>> GetAllBrands()
         {
             var result = _brandDal.GetAll();
             return new SuccessDataResult<List<Brand>>(result, Messages.ObjectList);
 
         }
+
         public IResult Add(Brand brand)
         {
             var result = _brandDal.Get(b => b.Name == brand.Name);
