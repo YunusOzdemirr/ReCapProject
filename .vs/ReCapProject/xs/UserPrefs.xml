@@ -9,19 +9,15 @@
       <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" />
       <File FileName="WebAPI/Controllers/AuthController.cs" />
       <File FileName="Core/Extensions/ClaimExtensions.cs" />
-      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="1" Column="1" />
-      <File FileName="Business/Concrete/AuthManager.cs" Line="1" Column="1" />
+      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" />
+      <File FileName="Business/Concrete/AuthManager.cs" />
       <File FileName="Business/Concrete/BrandManager.cs" Line="39" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="Business" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="BrandManager.cs" selected="True" />
-              </Node>
-            </Node>
+            <Node name="Business" expanded="True" />
           </Node>
         </State>
       </Pad>
