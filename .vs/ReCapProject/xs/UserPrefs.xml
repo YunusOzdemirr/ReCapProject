@@ -1,11 +1,49 @@
-﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api">
+﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Abstract/IAuthService.cs">
+    <Files>
+      <File FileName="WebAPI/Program.cs" Line="28" Column="19" />
+      <File FileName="Core/Utilites/Security/JWT/AccessToken.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/JWT/ITokenHelper.cs" Line="10" Column="29" />
+      <File FileName="Core/Utilites/Security/JWT/JwtHelper.cs" Line="27" Column="30" />
+      <File FileName="Core/Utilites/Security/JWT/TokenOptions.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Encryption/SecurityKeyHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Hashing/HashingHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/ClaimExtensions.cs" Line="14" Column="48" />
+      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/SessionExtensionMethods.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/AuthManager.cs" Line="58" Column="52" />
+      <File FileName="Entities/Dtos/UserForLoginDto.cs" Line="1" Column="1" />
+      <File FileName="Entities/Dtos/UserForRegisterDto.cs" Line="1" Column="1" />
+      <File FileName="Entities/mono_crash.11a6748113.0.json" Line="1" Column="1" />
+      <File FileName="Business/Abstract/IAuthService.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Startup.cs" Line="85" Column="92" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/BrandsController.cs" Line="65" Column="29" />
+      <File FileName="WebAPI/Controllers/CarImagesController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/CarsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/ColorsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/CustomersController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/RentalsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/UsersController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True" />
+          <Node name="ReCapProject" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True">
+                <Node name="IAuthService.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="Entities" expanded="True" />
+            <Node name="WebAPI" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>

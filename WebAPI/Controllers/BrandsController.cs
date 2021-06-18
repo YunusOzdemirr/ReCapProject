@@ -62,6 +62,7 @@ namespace WebAPI.Controllers
             }
             return BadRequest(result);
         }
+        [HttpGet("deletebyid")]
         public IActionResult Delete(int id)
         {
             var result = _brandService.Delete(id);
