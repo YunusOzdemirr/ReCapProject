@@ -1,24 +1,11 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|CustomerHomework.Api">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/BrandManager.cs">
-    <Files>
-      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
-      <File FileName="WebAPI/Controllers/BrandsController.cs" />
-      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" />
-      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" />
-      <File FileName="WebAPI/Controllers/AuthController.cs" />
-      <File FileName="Core/Extensions/ClaimExtensions.cs" />
-      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" />
-      <File FileName="Business/Concrete/AuthManager.cs" />
-      <File FileName="Business/Concrete/BrandManager.cs" Line="39" Column="1" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ReCapProject" expanded="True">
-            <Node name="Business" expanded="True" />
-          </Node>
+          <Node name="ReCapProject" expanded="True" />
         </State>
       </Pad>
     </Pads>
