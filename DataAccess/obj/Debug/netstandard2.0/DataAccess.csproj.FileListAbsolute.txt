@@ -45,10 +45,10 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/DataAccess/obj/Debug/netstandard
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/bin/Debug/netstandard2.0/Entities.dll
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/bin/Debug/netstandard2.0/Core.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/bin/Debug/netstandard2.0/Entities.pdb
-/Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.csprojAssemblyReference.cache
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.AssemblyInfoInputs.cache
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.AssemblyInfo.cs
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.CoreCompileInputs.cache
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.CopyComplete
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.dll
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.pdb
+/Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.AssemblyReference.cache

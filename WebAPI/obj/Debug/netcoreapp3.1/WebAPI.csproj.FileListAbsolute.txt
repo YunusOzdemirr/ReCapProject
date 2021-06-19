@@ -296,7 +296,6 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/M
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/Core.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/DataAccess.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/Entities.pdb
-/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csprojAssemblyReference.cache
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfoInputs.cache
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.AssemblyInfo.cs
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CoreCompileInputs.cache
@@ -310,3 +309,5 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/M
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.dll
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache
+/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.AssemblyReference.cache

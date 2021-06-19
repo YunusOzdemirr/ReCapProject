@@ -11,6 +11,7 @@ using Entities.Dtos;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using AutoMapper;
 
 namespace Business.Concrete
 {
@@ -18,17 +19,20 @@ namespace Business.Concrete
     {
         private IUserService _userService;
         private ITokenHelper _tokenHelper;
+        // private IMapper Mapper;
 
         public AuthManager(IUserService userService, ITokenHelper tokenHelper)
         {
             _userService = userService;
             _tokenHelper = tokenHelper;
+            // Mapper = mapper;
         }
 
         public IDataResult<User> Register(UserForRegisterDto userForRegisterDto, string password)
         {
             byte[] passwordHash, passwordSalt;
             HashingHelper.CreatePasswordHash(password, out passwordHash, out passwordSalt);
+            // var userMap= Mapper.Map<User>(userForRegisterDto);
             var user = new User
             {
                 Email = userForRegisterDto.Email,

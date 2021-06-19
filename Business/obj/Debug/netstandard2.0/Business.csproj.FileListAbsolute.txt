@@ -53,10 +53,10 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/Business/obj/Debug/netstandard2.
 /Users/yunus/Documents/GitHub/ReCapProject/Business/bin/Debug/netstandard2.0/DataAccess.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/Business/bin/Debug/netstandard2.0/Entities.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/Business/bin/Debug/netstandard2.0/Core.pdb
-/Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.csprojAssemblyReference.cache
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.AssemblyInfoInputs.cache
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.AssemblyInfo.cs
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.csproj.CoreCompileInputs.cache
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.csproj.CopyComplete
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.dll
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.pdb
+/Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.csproj.AssemblyReference.cache
