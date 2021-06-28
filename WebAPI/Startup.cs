@@ -54,6 +54,7 @@ namespace WebAPI
             //services.AddSingleton<IRentalsDal, EfRentalsDal>();
             services.AddSwaggerGen(c =>
             {
+                //
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI.Api", Version = "v1" });
             });
             services.AddCors();
@@ -87,7 +88,7 @@ namespace WebAPI
             app.UseCors(builder => builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 
             app.UseHttpsRedirection();
-          //  app.UseSession();
+            //  app.UseSession();
             app.UseRouting();
 
             app.UseAuthentication();
