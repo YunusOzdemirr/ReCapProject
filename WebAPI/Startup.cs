@@ -54,7 +54,7 @@ namespace WebAPI
             //services.AddSingleton<IRentalsDal, EfRentalsDal>();
             services.AddSwaggerGen(c =>
             {
-                //Deneme
+                //Deneme2
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPI.Api", Version = "v1" });
             });
             services.AddCors();
