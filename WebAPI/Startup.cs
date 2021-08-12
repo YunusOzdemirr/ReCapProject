@@ -42,16 +42,6 @@ namespace WebAPI
             services.AddControllers();
             //services.AddSingleton<IBrandService, BrandManager>();
             //services.AddSingleton<IBrandDal, EfBrandDal>();
-            //services.AddSingleton<ICarService, CarManager>();
-            //services.AddSingleton<ICarDal, EfCarDal>();
-            //services.AddSingleton<IColorService, ColorManager>();
-            //services.AddSingleton<IColorDal, EfColorDal>();
-            //services.AddSingleton<ICustomerService, CustomerManager>();
-            //services.AddSingleton<ICustomerDal, EfCustomerDal>();
-            //services.AddSingleton<IUsersService, UsersManager>();
-            //services.AddSingleton<IUsersDal, EfUsersDal>();
-            //services.AddSingleton<IRentalsService, RentalsManager>();
-            //services.AddSingleton<IRentalsDal, EfRentalsDal>();
             services.AddSwaggerGen(c =>
             {
                 //Deneme2
