@@ -48,6 +48,8 @@ namespace DataAccess.Concrete.InMemory
         public List<Car> GetAll(Expression<Func<Car, bool>> filter = null)
         {
             throw new NotImplementedException();
+            //return filter == null ? _car.ToList() : _car.Where(filter).ToList();
+
         }
 
         public Car GetById(int id)

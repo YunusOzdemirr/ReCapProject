@@ -1,45 +1,48 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|WebAPI.Api" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Abstract/IAuthService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/BrandManager.cs">
     <Files>
       <File FileName="WebAPI/Program.cs" Line="28" Column="19" />
-      <File FileName="Core/Utilites/Security/JWT/AccessToken.cs" />
-      <File FileName="Core/Utilites/Security/JWT/ITokenHelper.cs" />
-      <File FileName="Core/Utilites/Security/JWT/JwtHelper.cs" />
-      <File FileName="Core/Utilites/Security/JWT/TokenOptions.cs" />
-      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" />
-      <File FileName="Core/Utilites/Security/Encryption/SecurityKeyHelper.cs" />
-      <File FileName="Core/Utilites/Security/Hashing/HashingHelper.cs" />
-      <File FileName="Core/Extensions/ClaimExtensions.cs" />
-      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" />
-      <File FileName="Core/Extensions/SessionExtensionMethods.cs" />
-      <File FileName="Business/Concrete/AuthManager.cs" />
-      <File FileName="Entities/Dtos/UserForLoginDto.cs" />
-      <File FileName="Entities/Dtos/UserForRegisterDto.cs" />
-      <File FileName="Entities/mono_crash.11a6748113.0.json" />
+      <File FileName="Core/Utilites/Security/JWT/AccessToken.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/JWT/ITokenHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/JWT/JwtHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/JWT/TokenOptions.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Encryption/SigningCredentialsHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Encryption/SecurityKeyHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Security/Hashing/HashingHelper.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/ClaimExtensions.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/SessionExtensionMethods.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/AuthManager.cs" Line="1" Column="1" />
+      <File FileName="Entities/Dtos/UserForLoginDto.cs" Line="1" Column="1" />
+      <File FileName="Entities/Dtos/UserForRegisterDto.cs" Line="1" Column="1" />
+      <File FileName="Entities/mono_crash.11a6748113.0.json" Line="1" Column="1" />
       <File FileName="Business/Abstract/IAuthService.cs" Line="9" Column="1" />
-      <File FileName="WebAPI/Startup.cs" />
-      <File FileName="WebAPI/Controllers/AuthController.cs" />
-      <File FileName="WebAPI/Controllers/BrandsController.cs" />
-      <File FileName="WebAPI/Controllers/CarImagesController.cs" />
-      <File FileName="WebAPI/Controllers/CarsController.cs" />
-      <File FileName="WebAPI/Controllers/ColorsController.cs" />
-      <File FileName="WebAPI/Controllers/CustomersController.cs" />
-      <File FileName="WebAPI/Controllers/RentalsController.cs" />
-      <File FileName="WebAPI/Controllers/UsersController.cs" />
-      <File FileName="WebAPI/Controllers/WeatherForecastController.cs" />
+      <File FileName="WebAPI/Startup.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/AuthController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/BrandsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/CarImagesController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/CarsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/ColorsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/CustomersController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/RentalsController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/UsersController.cs" Line="1" Column="1" />
+      <File FileName="WebAPI/Controllers/WeatherForecastController.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Concrete/InMemory/InMemoryCarDal.cs" Line="47" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfCarDal.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="1" Column="1" />
+      <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="49" Column="32" />
+      <File FileName="Business/Concrete/BrandManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="Business" expanded="True" selected="True">
-              <Node name="Abstract" expanded="True" />
-            </Node>
-            <Node name="Entities" expanded="True" />
-            <Node name="WebAPI" expanded="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="Business" expanded="True">
+              <Node name="Concrete" expanded="True">
+                <Node name="BrandManager.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
