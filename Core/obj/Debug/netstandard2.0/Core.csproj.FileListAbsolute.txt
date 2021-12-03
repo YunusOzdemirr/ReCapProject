@@ -25,3 +25,4 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/Core/obj/Debug/netstandard2.0/Co
 /Users/yunus/Documents/GitHub/ReCapProject/Core/obj/Debug/netstandard2.0/Core.dll
 /Users/yunus/Documents/GitHub/ReCapProject/Core/obj/Debug/netstandard2.0/Core.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/Core/obj/Debug/netstandard2.0/Core.csproj.AssemblyReference.cache
+/Users/yunus/Documents/GitHub/ReCapProject/Core/obj/Debug/netstandard2.0/Core.GeneratedMSBuildEditorConfig.editorconfig

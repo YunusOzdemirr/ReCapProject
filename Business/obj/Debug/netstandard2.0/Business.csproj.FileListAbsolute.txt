@@ -60,3 +60,4 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/Business/obj/Debug/netstandard2.
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.dll
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.csproj.AssemblyReference.cache
+/Users/yunus/Documents/GitHub/ReCapProject/Business/obj/Debug/netstandard2.0/Business.GeneratedMSBuildEditorConfig.editorconfig

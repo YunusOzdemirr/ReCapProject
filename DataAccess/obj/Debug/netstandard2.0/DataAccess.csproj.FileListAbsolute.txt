@@ -52,3 +52,4 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/DataAccess/obj/Debug/netstandard
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.dll
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.csproj.AssemblyReference.cache
+/Users/yunus/Documents/GitHub/ReCapProject/DataAccess/obj/Debug/netstandard2.0/DataAccess.GeneratedMSBuildEditorConfig.editorconfig

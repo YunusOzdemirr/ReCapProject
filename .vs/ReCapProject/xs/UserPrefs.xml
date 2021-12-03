@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A7A20DB2-1C09-4F95-9876-FF2D3A3DD26B}|WebAPI.Api" NuGet.AddPackagesDialog.IncludePrerelease="True">
   <MonoDevelop.Ide.ItemProperties.ReCapProject PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.WebAPI PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/BrandManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Utilites/Security/JWT/JwtHelper.cs">
     <Files>
-      <File FileName="WebAPI/Program.cs" Line="28" Column="19" />
+      <File FileName="WebAPI/Program.cs" Line="21" Column="1" />
       <File FileName="Core/Utilites/Security/JWT/AccessToken.cs" Line="1" Column="1" />
       <File FileName="Core/Utilites/Security/JWT/ITokenHelper.cs" Line="1" Column="1" />
       <File FileName="Core/Utilites/Security/JWT/JwtHelper.cs" Line="1" Column="1" />
@@ -13,7 +13,7 @@
       <File FileName="Core/Utilites/Security/Hashing/HashingHelper.cs" Line="1" Column="1" />
       <File FileName="Core/Extensions/ClaimExtensions.cs" Line="1" Column="1" />
       <File FileName="Core/Extensions/ClaimsPrincipalExtensions.cs" Line="1" Column="1" />
-      <File FileName="Core/Extensions/SessionExtensionMethods.cs" Line="1" Column="1" />
+      <File FileName="Core/Extensions/SessionExtensionMethods.cs" Line="11" Column="32" />
       <File FileName="Business/Concrete/AuthManager.cs" Line="1" Column="1" />
       <File FileName="Entities/Dtos/UserForLoginDto.cs" Line="1" Column="1" />
       <File FileName="Entities/Dtos/UserForRegisterDto.cs" Line="1" Column="1" />
@@ -34,18 +34,34 @@
       <File FileName="DataAccess/Concrete/EntityFramework/ReCarProjectContext.cs" Line="1" Column="1" />
       <File FileName="Core/DataAccess/EntityFramework/EfEntityRepositoryBase.cs" Line="49" Column="32" />
       <File FileName="Business/Concrete/BrandManager.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/CarImageManager.cs" Line="1" Column="1" />
+      <File FileName="Business/Concrete/CarManager.cs" Line="46" Column="35" />
+      <File FileName="Core/Aspects/Autofac/Validation/ValidationAspect.cs" Line="1" Column="1" />
+      <File FileName="Business/BusinessAscpects/Autofac/SecuredOperation.cs" Line="30" Column="41" />
+      <File FileName="Business/DependencyResolvers/Autofac/AutofacBusinessModule.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Interceptors/AspectInterceptorSelector.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Interceptors/MethodInterception.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/Interceptors/MethodInterceptionBaseAttribute.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilites/IoC/ServiceTool.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ReCapProject" expanded="True">
-            <Node name="Business" expanded="True">
-              <Node name="Concrete" expanded="True">
-                <Node name="BrandManager.cs" selected="True" />
+            <Node name="Core" expanded="True">
+              <Node name="Utilites" expanded="True">
+                <Node name="Security" expanded="True">
+                  <Node name="JWT" expanded="True">
+                    <Node name="JwtHelper.cs" selected="True" />
+                  </Node>
+                </Node>
               </Node>
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>

@@ -43,3 +43,4 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/Entities/obj/Debug/netstandard2.
 /Users/yunus/Documents/GitHub/ReCapProject/Entities/obj/Debug/netstandard2.0/Entities.dll
 /Users/yunus/Documents/GitHub/ReCapProject/Entities/obj/Debug/netstandard2.0/Entities.pdb
 /Users/yunus/Documents/GitHub/ReCapProject/Entities/obj/Debug/netstandard2.0/Entities.csproj.AssemblyReference.cache
+/Users/yunus/Documents/GitHub/ReCapProject/Entities/obj/Debug/netstandard2.0/Entities.GeneratedMSBuildEditorConfig.editorconfig

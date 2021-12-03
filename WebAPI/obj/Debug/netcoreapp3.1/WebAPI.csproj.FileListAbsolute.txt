@@ -302,7 +302,6 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/M
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cs
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.MvcApplicationPartsAssemblyInfo.cache
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/staticwebassets/WebAPI.StaticWebAssets.Manifest.cache
-/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/staticwebassets/WebAPI.StaticWebAssets.xml
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/scopedcss/bundle/WebAPI.styles.css
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.RazorTargetAssemblyInfo.cache
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.CopyComplete
@@ -311,3 +310,4 @@ C:/Users/Ares/Desktop/Yunus/Github/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/M
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.genruntimeconfig.cache
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.csproj.AssemblyReference.cache
+/Users/yunus/Documents/GitHub/ReCapProject/WebAPI/obj/Debug/netcoreapp3.1/WebAPI.GeneratedMSBuildEditorConfig.editorconfig

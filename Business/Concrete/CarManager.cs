@@ -43,8 +43,8 @@ namespace Business.Concrete
             var GetCar = _carDal.GetAll(c => c.ColorId == colorId);
             return new SuccessDataResult<List<Car>>(GetCar, Messages.ObjectList);
         }
-        //[SecuredOperation("car.add,admin")]
-        //[ValidationAspect(typeof(CarValidator))]
+        [SecuredOperation("car.add,admin")]
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
             // car.Description.Length > 2 && car.DailyPrice > 0 ? _carDal.Add(car) : Console.WriteLine("Hata");

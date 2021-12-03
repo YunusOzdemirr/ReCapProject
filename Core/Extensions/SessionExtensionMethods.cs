@@ -7,6 +7,7 @@ namespace Core.Extensions
         public static void SetObject(this ISession session, string key, string value)
         {
             var SetStringObject = JsonConvert.SerializeObject(value);
+            //session.SetObject(key, SetStringObject);
             //session.SetString(key, SetStringObject);
         }
     }
